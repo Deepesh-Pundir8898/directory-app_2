@@ -18,6 +18,7 @@ A simple directory app built with React, designed to manage user data using loca
   - Provides a form for adding user details.
   - Stores user data in local storage.
   - Displays data dynamically and toggles between "Save" and "Delete" buttons.
+  - Click "Delete" next to a user to remove their data from the list and local storage.
 
 - `RetrieveInfo.jsx`:
   - Allows searching for user details by Aadhaar number.
