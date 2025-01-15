@@ -1,0 +1,88 @@
+/* .app-container {
+  padding: 20px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  header{
+    background-color: #4574c4;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  nav ul li {
+    background-color: #4574c4;
+    padding: 1rem;
+    border-radius: 5px;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .add-person-container , .retriveInfo-container{
+    margin: 2rem;
+    box-shadow: 0 0 10px blue;
+    border-radius: 10px;
+    padding: 2rem;
+    overflow-x: auto;
+    h1{
+      text-decoration: underline;
+      text-align: center;
+    }
+  }
+  .retriveInfo-container h1{
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+  }
+  .retriveInfo-container{
+    input{
+      font-size: 1.2rem;
+      padding: 0.8rem;
+    } 
+    button{
+      font-size: 1.2rem;
+      padding: 0.8rem;
+      border-radius: 5px;
+      background-color: #4574c4;
+      color: white;
+      border: none;
+    } 
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  thead{
+    background-color: #4574c4;
+    color: white;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
